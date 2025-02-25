@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!-- Primeira aula de HTML - apresentação para professora-->
+<html>
+   <head>
+      <title>Minha Página Simples</title>
+  </head>
+  <body>
+    <header>
+      <h1>Olá! Esse é o meu primeiro site!</h1>
+      <h2> Sou estudante de Ciência da Computação e estou no terceiro período!</h2>
+    </header>
+  </body>
+</html>
