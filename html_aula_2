@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Simples</title>
+  </head>
+  <body>
+    <header>
+      <h1>Minha Primeira Página - Aula 2 HTML</h1>
+    </header>
+    
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Olá! Eu sou um entusiasta da programação e estou aprendendo HTML. Esta é uma página simples para demonstrar o básico.</p>
+    </section>
+
+    <section>
+      <h2>Meus Hobbies</h2>
+      <ul>
+        <li>Programação</li>
+        <li>Leitura</li>
+        <li>Caminhadas ao ar livre</li>
+      </ul>
+    </section>
+
+	<section>
+	  <h3>Hobbie - Programação</h3>
+	  <p> A programação veio na minha vida quando eu tinha 11 anos. Meu pai, grande programador da EDS, HP, General Motors e Kyndryl,sempre fazia reuniões com a equipe e eu ficava escutando, sonhando que essa também seria minha rotina. </p>
+	  <p> Quando surgiu a rede social Tumblr, aprendi a criar Themes vendo vídeos no Youtube e meu pai me ajudava no que eu tinha dificuldade sozinha. Com o tempo, fui me aprimorando e passei a vender meus próprios temas. Assim, fui ganhando meu primeiro dinheiro da vida! </p>
+	  <p> Hoje, sonho em trabalhar como Engenheira de Software. Estudo para chegar cada vez mais longe! </p>
+
+
+
+	<meta charset = "UTF-8">
+	<title> Imagem I.T Girl</title>
+	</head>
+	<body>
+
+	<img src="https://i.pinimg.com/736x/eb/96/ff/eb96ff4009efb8a2e2d930220e8d13ea.jpg" alt="Imagem online" width="500" height="400">
+	<figcaption> Imagem tirada da internet de uma mulher programando </figcaption>
+
+
+	<h4>Tabela do que mais gosto de estudar</h4>
+
+<table width="500" border="1" cellspacing="0" cellpading="5" bordercolor="pink">
+	<tr>
+		<th>HTML</th>
+		<th>Python</th>
+		<th>Java</th>
+	</tr>
+		
+	
+
+      </body>
+</html>
