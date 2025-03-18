@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <div class="aula3_form">
+            Seja bem vindo! Me chamo Amanda Maricato e posso te ajudar a criar a sua página. Para mais informações, preencha o formulário abaixo e aguarde o contato!</h1> <br> <br>
+            <h1>Formulário de Cadastro</h1>
+            <head>
+              <meta charset="UTF-8">
+            </head>
+            <form class="form" action="#" method="post">
+                
+                <div class="form_grupo">
+                    <label for="nome" class="form_label">Nome</label> <br>
+                    <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required> <br> <br>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="e-mail" class="form_label">E-mail</label> <br>
+                    <input type="email" name="email" class="form_input" id="email" placeholder="seuemail@email.com" required> <br> <br> 
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="datanascimento" class="form_label">Data de Nascimento</label> <br>
+                    <input type="date" name="datanascimento" class="form_input" id="datanascimento" placeholder="Data de Nascimento" required> <br> <br>
+                </div>        
+                <div class="form_grupo">
+                    
+                    <label for="estadocivil" class="text">Estado civil</label>
+                    <select name="estadocivil" class="dropdown" required>
+                        
+                        <option selected disabled class="form_select_option" value="">Selecione</option>
+                        <option value="Solteiro" class="form_select_option">Solteiro</option>
+                        <option value="Casado" class="form_select_option">Casado</option>
+                        <option value="Divorciado" class="form_select_option">Divorciado</option> <br> <br>                    
+                            
+                    
+                    </select>
+                </div>
+                <div class="form_grupo">
+                    <span class="legenda">Sexo:</span>
+                    
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
+                        <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> Masculino</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
+                        <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> Feminino</label> <br> <br>
+                    </div>
+                </div>
+                    
+                    <div class="form_message">
+                        
+                        <label for="message" class="form_message_label"> Digite a sua mensagem:</label> <br>
+                        <textarea name="mensagem" id="message" cols="30" rows="3" class="form_input message_input" required></textarea>
+                    </div>
+                    <div class="submit">
+                      <input type="hidden" name="acao" value="enviar">
+                      <button type="submit" name="Submit" class="submit_btn" >Cadastrar</button>
+                    
+                    </div>
+            </form>
+    </div><!--aula3_form-->
